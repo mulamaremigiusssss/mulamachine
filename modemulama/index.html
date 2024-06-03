@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+  </head>
+  <body>
+    <center style="margin: auto; margin-top: 30px;min-height: 100vh;">
+      <div><h3>transcation prediction</h3></div>
+      <p>enter your text here</p>
+      <div>
+        <form action="{{url_for('predict')}}" method="post">
+          <input name="area" id="" placeholder="enter Age" />
+          <button type="submit">predict</button>
+        </form>
+      </div>
+    </center>
+  </body>
+</html>
